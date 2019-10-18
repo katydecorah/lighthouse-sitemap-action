@@ -1,0 +1,23 @@
+{
+  "name": "lighthouse-sitemap-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katydecorah/lighthouse-sitemap-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katydecorah/lighthouse-sitemap-action/issues"
+  },
+  "homepage": "https://github.com/katydecorah/lighthouse-sitemap-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.1.3"
+  }
+}
