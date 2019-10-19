@@ -1,0 +1,15 @@
+on: [push]
+
+jobs:
+  sitemap_job:
+    runs-on: ubuntu-latest
+    name: Returns a list of urls given a sitemap
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Return urls
+        uses: ./ # Uses an action in the root directory
+        with:
+          SITEMAP: https://staticmapmaker.com/sitemap.xml
+      - name: List URLs
+        run: echo "${{ env.urls }}"
